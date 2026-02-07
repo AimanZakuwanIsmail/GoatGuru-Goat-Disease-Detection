@@ -1,4 +1,4 @@
-# GoatGuru — AI Disease Detection 🐐
+# GoatGuru — Goat Disease Detection 🐐
 
 <p align="center">
   <strong>Scan. Detect. Treat.</strong><br>
