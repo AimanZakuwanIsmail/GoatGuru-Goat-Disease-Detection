@@ -1,0 +1,24 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+android/app/build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+
+# Android
+.gradle/
+local.properties
+
+# Python / ML (Important for your YOLO project!)
+venv/
+__pycache__/
+*.pyc
+*.pt      # Ignore large model weights if they are >100MB
+*.tflite  # Ignore large TFLite models if >100MB
+datasets/ # HUGE: Do not upload your image dataset to GitHub
+runs/     # YOLO training logs

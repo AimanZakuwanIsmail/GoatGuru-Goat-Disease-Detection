@@ -1,0 +1,46 @@
+name: goatguru
+description: "GoatGuru - Your AI Vet in a Pocket"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  cupertino_icons: ^1.0.8
+  tflite_flutter: ^0.11.0
+  image_picker: ^1.0.7
+  image: ^4.1.3
+  vector_math: ^2.1.4
+  google_fonts: ^6.1.0
+  shimmer: ^3.0.0
+  confetti: ^0.8.0
+  url_launcher: ^6.2.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/mascot_300x300.png
+    - assets/best_float32.tflite
+    - assets/foot_rot.png
+    - assets/mastitis.png
+    - assets/pink_eye.png
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
